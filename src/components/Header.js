@@ -245,6 +245,11 @@ const SignOut = styled.div`
   display: none;
   color: #0a66c2;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 6px 9px rgba(0, 0, 0, 0.2);
+  @media (max-width: 768px) {
+    bottom: 50px;
+    top: unset;
+    z-index: 500;
+  }
 `;
 
 // we're borrowing style from NavList
